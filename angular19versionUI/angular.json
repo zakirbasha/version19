@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/angular19version-ui/",
             "outputPath": "dist/angular19version-ui",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -103,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a62cdbf6-723d-4342-a455-6e548b16b223"
   }
 }
